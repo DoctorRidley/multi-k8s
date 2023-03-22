@@ -32,7 +32,7 @@ jobs:
       - name: Set Project
         uses: google-github-actions/setup-gcloud@v0
         with:
-          project-id: ${{ secrets.GKE_PROJECT_NAME }}
+          project_id: ${{ secrets.GKE_PROJECT_NAME }}
 
       - name: Auth
         run: |-
